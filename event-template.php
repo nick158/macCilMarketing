@@ -92,9 +92,11 @@
             <div class="row">
                 {{#each images}}
                 <div class="col-xs-12 col-sm-4">
-                <div class="eventPicture pointer" pic-data="{{@index}}" data-toggle="modal" data-target="#eventModal">
-                    <img src="{{{this}}}">
-                </div>
+                    <div class="wrapper">
+                        <div class="eventPicture pointer" pic-data="{{@index}}" data-toggle="modal" data-target="#eventModal">
+                            <img src="{{{this}}}">
+                        </div>
+                    </div>
                 </div>
                 {{/each}}
             </div>

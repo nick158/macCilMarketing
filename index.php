@@ -257,8 +257,8 @@
                     <!-- NUMBERS - ITEM 3 -->
                     <div class="col-sm-6 col-md-3">
                         <div class="numbers-item">
-                            <div class="numbers-item-counter"><span class="counter-up">2</span></div>
-                            <div class="numbers-item-caption">Dedicated Owners</div>
+                            <div class="numbers-item-counter"><span class="counter-up">3600</span>+</div>
+                            <div class="numbers-item-caption">Ads Delivered</div>
                         </div>
                     </div>
                     <!-- NUMBERS - ITEM 4 -->
@@ -280,7 +280,7 @@
                     <!-- TEAM MEMBER 1 -->
                     <div class="col-sm-6 col-md-3" data-animation="fadeIn">
                         <a href="event-template.php?event=0" class="eventCards">
-                            <div class="team-member">
+                            <div class="wrapper">
                                 <img class="team-member-picture" src="events/1/1.jpg" alt="">
                                 <div class="team-member-text">
                                     <h4 class="team-member-name">Chinese New Year Show</h4>
@@ -293,7 +293,7 @@
                     <!-- TEAM MEMBER 2 -->
                     <div class="col-sm-6 col-md-3" data-animation="fadeIn">
                         <a href="event-template.php?event=1" class="eventCards">
-                            <div class="team-member even">
+                            <div class="wrapper">
                                 <img class="team-member-picture" src="events/2/1.jpg" alt="">
                                 <div class="team-member-text">
                                     <h4 class="team-member-name">Christmas Show</h4>
@@ -307,7 +307,7 @@
                     <!-- TEAM MEMBER 3 -->
                     <div class="col-sm-6 col-md-3" data-animation="fadeIn">
                         <a href="event-template.php?event=2" class="eventCards">
-                            <div class="team-member">
+                            <div class="wrapper">
                                 <img class="team-member-picture" src="events/3/2.jpg" alt="">
                                 <div class="team-member-text">
                                     <h4 class="team-member-name">Mother's Day Program</h4>
@@ -321,7 +321,7 @@
                     <!-- TEAM MEMBER 4 -->
                     <div class="col-sm-6 col-md-3" data-animation="fadeIn">
                         <a href="event-template.php?event=3" class="eventCards">
-                            <div class="team-member even">
+                            <div class="wrapper">
                                 <img class="team-member-picture" src="events/4/1.jpg" alt="">
                                 <div class="team-member-text">
                                     <h4 class="team-member-name">Year of the Ram</h4>

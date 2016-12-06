@@ -2768,10 +2768,7 @@ body.enable-preloader.preloader-dark #jpreLoader {
     cursor: pointer;
     color: inherit;
 }
-.eventCards:hover{
-    color:inherit;
-    font-size: 18px;
-}
+
 .topPad{
     padding-top: 20px;
 }
@@ -2783,4 +2780,12 @@ body.enable-preloader.preloader-dark #jpreLoader {
 }
 #modText{
     color: #0c0c0c;
+}
+.eventPicture{
+    height: 300px;
+    overflow: hidden;
+}
+.eventPicture img{
+    position: relative;
+    height: 100%;
 }
