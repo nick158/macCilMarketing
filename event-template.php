@@ -80,27 +80,6 @@
             <script id="event-template" edata="<?php 
                     echo $_GET['event']
                 ?>" type="text/x-handlebars-template">
-            <section id="headline" class="headline-section section-dark section">
-            <div class="container">
-                <h2 class="section-heading text-center">
-                {{title}}
-                </h2>
-                <p class="text-center">{{description}}</p>
-            </div>
-            </section>
-            <section class="topPad">
-            <div class="row">
-                {{#each images}}
-                <div class="col-xs-12 col-sm-4">
-                    <div class="wrapper">
-                        <div class="eventPicture pointer" pic-data="{{@index}}" data-toggle="modal" data-target="#eventModal">
-                            <img src="{{{this}}}">
-                        </div>
-                    </div>
-                </div>
-                {{/each}}
-            </div>
-            </section>
             </script>
         </section>
         <div id="eventModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -126,6 +105,7 @@
     <script src="js/jquery.inview.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
     <script src="js/handlebars-v4.0.5.js"></script>
+    <script src="js/compEvents.handlebar"></script>
     <!-- MAIN SCRIPT
 	================================= -->
     <script src="js/event-template.js"></script>

@@ -10,7 +10,7 @@
                                             <strong>Cecilia Ip</strong>
                                             <ul class="fa-ul">
                                                 <li><i class="fa-li fa fa-home"></i>Markham, Ontario</li>
-                                                <li><i class="fa-li fa fa-envelope"></i>ci_maccil@yahoo.ca</li>
+                                                <li><i class="fa-li fa fa-envelope"></i>info@maccilmarketing.com</li>
                                                 <li><i class="fa-li fa fa-phone"></i>Phone: (416) 875-0828</li>
                                                 <li><i class="fa-li fa fa-fax"></i>Fax: (905) 258-0046</li>
                                             </ul>

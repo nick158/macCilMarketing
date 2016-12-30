@@ -11,43 +11,24 @@
     <div class="container-fluid">
         <h2 class="section-heading text-center">Portfolio</h2>
         <div class="portfolio-row row">
-            <!-- PORTFOLIO - ITEM 1 -->
-            <div class="col-sm-6 col-md-4" data-animation="fadeIn">
-                <div class="portfolio-item modImage" data-toggle="modal" data-target="#imgModal">
-                    <img class="portfolio-item-picture" src="images/contents/artwork/Chinatown%20Ctr%20Ad_2015-12_MPS_web%20120.jpg" alt="Ethnic Advertising">
-                </div>
-            </div>
-            <!-- PORTFOLIO - ITEM 2 -->
-            <div class="col-sm-6 col-md-4" data-animation="fadeIn">
-                <div class="portfolio-item modImage" data-toggle="modal" data-target="#imgModal">
-                    <img class="portfolio-item-picture" src="images/contents/artwork/Connium_2016-02_MPS_FP_web%20120.jpg" alt="Translation Ad for Connium Managment">
-                </div>
-            </div>
-            <div class="hidden-md hidden-lg clear"></div>
-            <!-- PORTFOLIO - ITEM 3 -->
-            <div class="col-sm-6 col-md-4" data-animation="fadeIn">
-                <div class="portfolio-item modImage" data-toggle="modal" data-target="#imgModal">
-                    <img class="portfolio-item-picture" src="images/contents/artwork/Shops%20on%20Yonge%20flyer_2013-11B_web%20120.jpg" alt="Shops on Yonge Poster">
-                </div>
-            </div>
             <div class="hidden-sm hidden-xs clear"></div>
             <!-- PORTFOLIO - ITEM 4 -->
             <div class="col-sm-6 col-md-4" data-animation="fadeIn">
                 <div class="portfolio-item modImage" data-toggle="modal" data-target="#imgModal">
-                    <img class="portfolio-item-picture" src="images/contents/translation/Oriental%20Ctr_Mother%20Day%20poster_2015-03_web%2072.jpg" alt="Mother's Day Event Poster">
+                    <img class="portfolio-item-picture" src="images/contents/artwork/Maxx%20AD%202012-04_SP_web%20120.jpg" alt="Maxx Dining Lounge Advertisement">
                 </div>
             </div>
             <div class="hidden-md hidden-lg clear"></div>
             <!-- PORTFOLIO - ITEM 5 -->
             <div class="col-sm-6 col-md-4" data-animation="fadeIn">
-                <div class="portfolio-item modImage" data-toggle="modal" data-target="#imgModal">
-                    <img class="portfolio-item-picture" src="images/contents/artwork/BioEffect%20AD_2013-08_RH_Full_web%20120.jpg" alt="">
+                <div class="portfolio-item modImage text-center" data-toggle="modal" data-target="#imgModal">
+                    <img class="portfolio-item-picture" src="images/contents/artwork/BioEffect%20AD_2013-08_RH_Full_web%20120.jpg" alt="Bioeffect products advertisement">
                 </div>
             </div>
             <!-- PORTFOLIO - ITEM 6 -->
             <div class="col-sm-6 col-md-4" data-animation="fadeIn">
                 <div class="portfolio-item modImage" data-toggle="modal" data-target="#imgModal">
-                    <img class="portfolio-item-picture" src="images/contents/ethnic/Wycliffe_2016-01_CNY_MP_web%20120.jpg" alt="">
+                    <img class="portfolio-item-picture" src="images/contents/ethnic/The%20Shops_2016-01_CNY_MP_web%2072.jpg" alt="">
 
                 </div>
             </div>

@@ -99,7 +99,7 @@
                     </div>
 
                     <div class="test-fil fil-button">
-                        <button class="btn btn-border fil" data-rel="artwork">Artwork</button>
+                        <button class="btn btn-border fil" data-rel="artwork">Bilingual Artwork</button>
 
                     </div>
 

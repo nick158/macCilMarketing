@@ -424,6 +424,7 @@
     var oldSelectedClass = "";
 //filter button click on the portfolio page
     $(".fil").click(function () {
+//match the data information of the button pressed to the class of the card. the tag in port-template.js becomes class of object
         selectedClass = $(this).attr("data-rel");
         if (selectedClass == oldSelectedClass) {
             return;
@@ -437,9 +438,5 @@
             $(".port-section").fadeTo(500, 1);
         },50);
         oldSelectedClass = selectedClass;
-    })
-    $(".test").click(function(){
-        console.log("test");
-        window.location.href = "index.php";
     })
 })(jQuery);

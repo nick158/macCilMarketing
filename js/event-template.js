@@ -54,11 +54,9 @@ $(document).on('ready', function () {
         context = contextLoader($("#event-template").attr('edata'));
     $(function () {
             //load the handlebars template
-            var templateScript = $("#event-template").html();
-            var template = Handlebars.compile(templateScript);
-
-            var compiledHtml = template(context);
-            $("#eventContainer").append(compiledHtml);
+        var template = Handlebars.templates['event-template'];
+        var compiledHtml = template(context);
+        $("#eventContainer").append(compiledHtml);
         })
     $(".eventPicture").click(function(){
        var imgId = Number($(this).attr('pic-data'));
