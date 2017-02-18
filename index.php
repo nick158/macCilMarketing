@@ -30,8 +30,8 @@ $contactDesc = "Questions? Need quotes? Leave us a message! We're excited to wor
     <!-- CSS
         ================================= -->
     <!-- GOOGLE FONTS -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
     <!-- LIBRARIES CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
