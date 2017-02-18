@@ -4,6 +4,15 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
+        <?php 
+    $cookie_name = "lang";
+    $cookie_lang = "eng";
+    setcookie($cookie_name, $cookie_lang, time() + (86400 * 30), "/");
+$portfolio = "Portfolio";
+$viewFull = "View Full Portfolio";
+$contactUs = "Contact Us";
+$contactDesc = "Questions? Need quotes? Leave us a message! We're excited to work with you.";
+?>
 <html lang="en">
 <!--<![endif]-->
 
@@ -55,7 +64,8 @@
                         </button>
                     <!-- HEADER LOGO -->
                     <a class="navbar-logo navbar-brand anchor-link" href="#hero">
-                        <img src="images/logos/logo.png" srcset="images/logos/header-logo@2x.png 2x" alt="Drew">
+                        <img src="images/logos/logo.png" srcset="images/logos/header-logo@2x.png 2x" alt="MacCil Marketing">
+
                     </a>
                 </div>
                 <nav id="navigation" class="navigation navbar-collapse collapse navbar-right">
@@ -90,11 +100,16 @@
                                     <h1 class="hero-title">MacCil Marketing</h1>
                                     <p class="hero-tagline">Connecting Cultures, Building Brands</p>
                                 </div>
+                                <div class="text-center trans-buttons">
+                                    <a class="translate eng-translate trans-active">English</a>
+                                    <a href="chinese-index.php" class="translate chi-translate">中文</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
             <!-- HERO START LINK -->
             <a href="#about" class="hero-start-link anchor-link"><span class="fa fa-angle-double-down"></span></a>
         </section>

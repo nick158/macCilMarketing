@@ -9,7 +9,7 @@
 </div>
 <section id="portfolio" class="portfolio-section section">
     <div class="container-fluid">
-        <h2 class="section-heading text-center">Portfolio</h2>
+        <h2 class="section-heading text-center"><?php echo $portfolio ?></h2>
         <div class="portfolio-row row">
             <div class="hidden-sm hidden-xs clear"></div>
             <!-- PORTFOLIO - ITEM 4 -->
@@ -34,7 +34,7 @@
             </div>
             <div class="hidden-md hidden-lg clear"></div>
             <div class=" col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4 text-center">
-                <a href="portfolio.php" class="btn btn-primary btn-lg btn-block port-button">View Full Portfolio</a>
+                <a href="portfolio.php" class="btn btn-primary btn-lg btn-block port-button"><?php echo $viewFull ?></a>
             </div>
         </div>
     </div>

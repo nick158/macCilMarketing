@@ -3,11 +3,10 @@
                         <div class="contact-maps-row row">
                             <div class="col-md-8 col-md-offset-2">
                                 <div class="contact-maps-box text-center" data-animation="fadeIn">
-                                    <h2 class="section-heading">Contact Us</h2>
-                                    <p>Questions? Need quotes? Leave us a message! We're excited to work with you.</p>
+                                    <h2 class="section-heading"><?php echo $contactUs;?></h2>
+                                    <p><?php echo $contactDesc;?></p>
                                     <div class="row">
                                         <address class="col-sm-6">
-                                            <strong>Cecilia Ip</strong>
                                             <ul class="fa-ul">
                                                 <li><i class="fa-li fa fa-home"></i>Markham, Ontario</li>
                                                 <li><i class="fa-li fa fa-envelope"></i>info@maccilmarketing.com</li>

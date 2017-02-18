@@ -6,10 +6,10 @@
 
 // Headers
 // you can add more than one email address
-$to_email_addresses       = array( 'mail@example.com' => 'Example' );
-$cc_email_addresses       = array( 'mail@example.com' => 'Example' );
-$bcc_email_addresses      = array( 'mail@example.com' => 'Example' );
-$reply_to_email_addresses = array( 'mail@example.com' => 'Example' );
+$to_email_addresses       = array( 'nicholasdlchan60@gmail.com' => 'nicholasdlchan60@gmail.com' );
+$cc_email_addresses       = array( );
+$bcc_email_addresses      = array( );
+$reply_to_email_addresses = array(  );
 
 // Body
 $subject_prefix = '';

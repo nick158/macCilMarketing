@@ -1843,6 +1843,7 @@ iframe {
 
 .team-member-text {
     padding: 30px 30px 60px;
+    height: 200px;
 }
 
 .team-member-name {
@@ -2687,6 +2688,80 @@ body.enable-preloader.preloader-dark #jpreLoader {
     padding-left: 10px;
     padding-right: 10px;
 }
+/*for the translate button */
+.trans-buttons{
+    padding-top: 30px;
+}
+.translate{
+  background: #50A0DC;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase; 
+padding: 1em 1em 1em 1.5em;
+    font-size: 12px;
+    width: 4em;
+    margin-right: 20px;
+    z-index: 2;
+    text-align: center;
+    width: 9em;
+    -webkit-transition: .2s ease all;
+    -moz-transition: .2s ease all;
+    transition: .2s ease all;
+}
+.translate:hover{
+    font-size: 15px;
+    color: white;
+}
+.eng-translate {
+    border-right: none;
+}
+.chi-translate{
+    border-left: none;
+}
+.eng-translate:after{
+    content: "";
+  position: absolute;
+  display: block;
+  background: #50A0DC;
+  z-index: -1;
+  width: 1.5em;
+  height: 100%;
+  top: 0em;
+  -webkit-transform-origin: bottom left;
+  -moz-transform-origin: bottom left;
+  transform-origin: bottom left;
+  right: -.20em;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  border-left: none;
+}
+.chi-translate:after{
+    content: "";
+    position: absolute;
+    display: block;
+    background: #50A0DC;
+    z-index: -1;
+    width: 1.5em;
+  height: 100%;
+  top: 0em;
+  -webkit-transform-origin: bottom right;
+  -moz-transform-origin: bottom right;
+  transform-origin: bottom right;
+  left: -1.4em;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  border-right: none;
+}
+.trans-active{
+    background-color: #33528C;
+}
+.trans-active:after{
+    background-color: #33528C;
+}
 /**
  * ========================================
  * Portfolio
@@ -2788,4 +2863,12 @@ body.enable-preloader.preloader-dark #jpreLoader {
 .eventPicture img{
     position: relative;
     height: 100%;
+}
+/**
+ * ========================================
+ * Chinese font sizes
+ * ========================================
+ */
+.nav-chinese{
+    font-size: 20px; !important
 }
