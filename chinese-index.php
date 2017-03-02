@@ -246,8 +246,7 @@ $contactDesc = "兴奋听到从你";
                                             <input type="text" name="contact-name" class="form-control" placeholder="名称">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" name="contact-email" class="form-control" placeholder="电子邮件地址
-">
+                                            <input type="text" name="contact-email" class="form-control" placeholder="电子邮件地址">
                                         </div>
                                         <div class="form-group">
                                             <input type="text" name="contact-subject" class="form-control" placeholder="主题">
