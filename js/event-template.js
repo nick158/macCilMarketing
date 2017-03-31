@@ -58,6 +58,7 @@ $(document).on('ready', function () {
          captions: []
         };
         context = contextLoader($("#event-template").attr('edata'));
+    console.log(context);
     $(function () {
             //load the handlebars template
         var template = Handlebars.templates['event-template'];

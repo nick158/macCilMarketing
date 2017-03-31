@@ -10,7 +10,7 @@
     setcookie($cookie_name, $cookie_lang, time() + (86400 * 30), "/");
     $portfolio = "作品";
 $viewFull = "查看完整作品";
-$contactUs = "联系我们";
+$contactUs = "聯繫我們";
 $contactDesc = "兴奋听到从你";
 ?>
 <html lang="en">
@@ -73,12 +73,12 @@ $contactDesc = "兴奋听到从你";
                     <!-- NAVIGATION LINKS -->
                     <ul id="header-nav" class="nav navbar-nav nav-chinese">
                         <li><a href="#hero" class="hidden">Top</a></li>
-                        <li><a href="#about">关于</a></li>
-                        <li><a href="#services">服务</a></li>
-                        <li><a href="#portfolio">作品</a></li>
-                        <li><a href="#events">事件</a></li>
+                        <li><a href="#about">關於我們</a></li>
+                        <li><a href="#services">服務</a></li>
+                        <li><a href="#portfolio">廣告組合</a></li>
+                        <li><a href="#events">活動策劃</a></li>
                         <!-- HEADER ACTION BUTTON -->
-                        <li class="header-action-button"><a href="#contact" class="btn btn-primary nav-chinese">联系我们</a></li>
+                        <li class="header-action-button"><a href="#contact" class="btn btn-primary nav-chinese">聯繫我們</a></li>
                     </ul>
                 </nav>
             </div>
@@ -145,7 +145,7 @@ $contactDesc = "兴奋听到从你";
                 </div>
             </div>
             <div class="container">
-                <h2 class="section-heading text-center">服務</h2>
+                <h2 class="section-heading text-center">廣告組合</h2>
                 <div class="benefits-row row">
                     <!-- BENEFIT 1 outreach-->
                     <div class="col-sm-6 col-md-3">
@@ -219,7 +219,70 @@ $contactDesc = "兴奋听到从你";
             </div>
         </section>
         <?php include('homePagePortfolio.php')?>
-        <!-- Events
+        <!-- Events -->
+        <section id="events" class="team-section section">
+            <div class="container-fluid">
+                <h2 class="section-heading text-center">
+活動策劃</h2>
+                <div class="team-row row">
+                    <!-- TEAM MEMBER 1 -->
+                    <div class="col-sm-6 col-md-3" data-animation="fadeIn">
+                        <a href="event-template.php?event=0" class="eventCards">
+                            <div class="wrapper">
+                                <img class="team-member-picture" src="events/1/1.jpg" alt="">
+                                <div class="team-member-text">
+                                    <h4 class="team-member-name">Chinese New Year Show</h4>
+                                    <div class="team-member-position"></div>
+                                    <p class="team-member-description">MacCil Marketing organized Chinese New Year Program</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- TEAM MEMBER 2 -->
+                    <div class="col-sm-6 col-md-3" data-animation="fadeIn">
+                        <a href="event-template.php?event=1" class="eventCards">
+                            <div class="wrapper">
+                                <img class="team-member-picture" src="events/2/1.jpg" alt="">
+                                <div class="team-member-text">
+                                    <h4 class="team-member-name">Christmas Show</h4>
+                                    <div class="team-member-position"></div>
+                                    <p class="team-member-description">Christmas Concert and Show</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hidden-md hidden-lg clear"></div>
+                    <!-- TEAM MEMBER 3 -->
+                    <div class="col-sm-6 col-md-3" data-animation="fadeIn">
+                        <a href="event-template.php?event=2" class="eventCards">
+                            <div class="wrapper">
+                                <img class="team-member-picture" src="events/3/2.jpg" alt="">
+                                <div class="team-member-text">
+                                    <h4 class="team-member-name">Mother's Day Program</h4>
+                                    <div class="team-member-position"></div>
+                                    <p class="team-member-description">Mother's Day program with a Mexican cultural twist.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hidden-sm hidden-lg clear"></div>
+                    <!-- TEAM MEMBER 4 -->
+                    <div class="col-sm-6 col-md-3" data-animation="fadeIn">
+                        <a href="event-template.php?event=3" class="eventCards">
+                            <div class="wrapper">
+                                <img class="team-member-picture" src="events/4/1.jpg" alt="">
+                                <div class="team-member-text">
+                                    <h4 class="team-member-name">Year of the Ram</h4>
+                                    <div class="team-member-position"></div>
+                                    <p class="team-member-description">Our largest Chinese New Year yet. </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="hidden-md hidden-lg clear"></div>
+                </div>
+            </div>
+        </section>
         <!-- CONTACT + MAPS
                 ================================= -->
                        <section id="contact" class="contact-maps-section section bg-blue">
@@ -240,23 +303,24 @@ $contactDesc = "兴奋听到从你";
                                         </address>
                                     </div>
                                     <form name="contact" action="modules/send-email.php" method="post" class="form form-ajax-submit">
-                                        <p><strong>或给我们留言</strong></p>
+                                        <p><strong></strong></p>
                                         <div class="form-validation alert"></div>
                                         <div class="form-group">
-                                            <input type="text" name="contact-name" class="form-control" placeholder="名称">
+                                            <input type="text" name="contact-name" class="form-control" placeholder="姓名">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" name="contact-email" class="form-control" placeholder="电子邮件地址">
+                                            <input type="text" name="contact-email" class="form-control" placeholder="郵箱地址">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" name="contact-subject" class="form-control" placeholder="主题">
+                                            <input type="text" name="contact-subject" class="form-control" placeholder="有關項目">
                                         </div>
                                         <div class="form-group">
-                                            <textarea name="contact-message" class="form-control" placeholder="信息
+                                            <textarea name="contact-message" class="form-control" placeholder="訊息
+
 " rows="5"></textarea>
                                         </div>
                                         <div class="form-group">
-                                            <button class="btn btn-primary btn-lg btn-block">发信息
+                                            <button class="btn btn-primary btn-lg btn-block">傳遞訊息
 </button>
                                         </div>
                                     </form>

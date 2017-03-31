@@ -4,6 +4,27 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
+<?php
+//add in the variables for the nav links
+ if(isset($_COOKIE["lang"])){
+     if($_COOKIE["lang"] == "chi"){
+         $about = "關於我們" ;
+         $services = "服務";
+         $portfolio = "廣告組合";
+         $events = "活動策劃";
+         $contact = "聯繫我們";
+         $home = "chinese-index.php";
+     }
+     else{
+         $about = "About" ;
+         $services = "Services";
+         $portfolio = "Portfolio";
+         $events = "Events";
+         $contact = "Contact Us";
+         $home = "index.php";
+     }
+ }
+?>
 <html lang="en">
 <!--<![endif]-->
 
@@ -56,20 +77,20 @@
 					<span class="icon-bar"></span>
 					</button>
                     <!-- HEADER LOGO -->
-                    <a id="test" class="navbar-logo navbar-brand" href="index.php">
+                    <a id="test" class="navbar-logo navbar-brand" href="<?php echo $home; ?>">
                         <img src="images/logos/logo.png" srcset="images/logos/header-logo@2x.png 2x" alt="Drew">
                     </a>
                 </div>
                 <nav id="navigation" class="navigation navbar-collapse collapse navbar-right">
                     <!-- NAVIGATION LINKS -->
                     <ul id="header-nav" class="nav navbar-nav">
-                        <li><a href="index.php" class="hidden">Top</a></li>
-                        <li><a href="index.php#about">About</a></li>
-                        <li><a href="index.php#services">Services</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li class="current"><a href="index.php#events">Events</a></li>
+                        <li><a href="<?php echo $home; ?>"class="hidden">Top</a></li>
+                        <li><a href="<?php echo $home; ?> #about"><?php echo $about;?></a></li>
+                        <li><a href="<?php echo $home; ?> #services"><?php echo $services;?></a></li>
+                        <li><a href="portfolio.php"><?php echo $portfolio; ?></a></li>
+                        <li class="current"><a href="<?php echo $home; ?> #events"><?php echo $events;?></a></li>
                         <!-- HEADER ACTION BUTTON -->
-                        <li class="header-action-button"><a href="index.php#contact" class="btn btn-primary">Contact Us</a></li>
+                        <li class="header-action-button"><a href="<?php echo $home; ?> #contact" class="btn btn-primary"><?php echo $contact; ?></a></li>
                     </ul>
                 </nav>
             </div>
@@ -105,7 +126,7 @@
     <script src="js/jquery.inview.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
     <script src="js/handlebars-v4.0.5.js"></script>
-    <script src="js/compEvents.handlebar"></script>
+    <script src="js/compEvents.handlebars"></script>
     <!-- MAIN SCRIPT
 	================================= -->
     <script src="js/event-template.js"></script>
