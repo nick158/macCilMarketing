@@ -15,12 +15,15 @@ $(document).on('ready', function () {
             title: "Chinese New Year Show",
             images: imageLoader(3, eventNo),
             description: "Organized and promoted by MacCil Marketing, our cultural Dragon dancers brought crowds into the shops. They couldn't resist.",
+            cdescription: "年度盛會！集購物、娛樂、慶典於一身。醒獅獻瑞，活潑生動, 顧客更可獲賀年紅封包及食品，福瑞盈懷，滿載而歸。令眾人享受了一個難忘下午！",
             captions: ["Traditional Lion Dance and customer feed the lion with red pocket for good luck", "Lion Dance Parade", "A young child feeds the lion during the ceremony for good luck"]
         };
         var event1 = {
             title: "Christmas Show",
             images: imageLoader(3, eventNo),
             description: "Talented dancers, Beatles look-alike, no one could resist a little singing and dancing.",
+            cdescription: "佳節降臨，普天同慶！多元民族舞蹈、魔術表演；小朋友們積極的參與, 他們在欣賞演出前可得動物氣球, 成人則陶醉於披頭士經典名曲之中, 令觀眾席上的大小朋友看得雀躍萬分。 
+",
             captions: ["A group of talented young dancers performed in the Christmas show.","Our show drew a huge crowd filled with an audience who couldn't resist singing and dancing during the show." ,"A mini concert from The Beatles Tribute Band. For a few minutes, it was as if the Beatles were back!"]
         };
         var event2 = {
@@ -48,6 +51,7 @@ $(document).on('ready', function () {
      var context ={
             title: "",
             description: "",
+         cdescription: "",
             images: [],
          captions: []
         };
@@ -61,7 +65,6 @@ $(document).on('ready', function () {
     $(".eventPicture").click(function(){
        var imgId = Number($(this).attr('pic-data'));
         var imgSrc = $(this).children().attr('src');
-        console.log(imgSrc);
         $("#eveModPic").attr('src', imgSrc);
         $("#modText").text(context.captions[imgId]);
     })

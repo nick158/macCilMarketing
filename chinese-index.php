@@ -73,12 +73,12 @@ $contactDesc = "兴奋听到从你";
                     <!-- NAVIGATION LINKS -->
                     <ul id="header-nav" class="nav navbar-nav nav-chinese">
                         <li><a href="#hero" class="hidden">Top</a></li>
-                        <li><a href="#about">关于</a></li>
-                        <li><a href="#services">服务</a></li>
-                        <li><a href="#portfolio">作品</a></li>
-                        <li><a href="#events">事件</a></li>
+                        <li><a href="#about">關於我們</a></li>
+                        <li><a href="#services">服務</a></li>
+                        <li><a href="#portfolio">廣告組合</a></li>
+                        <li><a href="#events">活動策劃</a></li>
                         <!-- HEADER ACTION BUTTON -->
-                        <li class="header-action-button"><a href="#contact" class="btn btn-primary nav-chinese">联系我们</a></li>
+                        <li class="header-action-button"><a href="#contact" class="btn btn-primary nav-chinese">聯繫我們</a></li>
                     </ul>
                 </nav>
             </div>
@@ -240,23 +240,24 @@ $contactDesc = "兴奋听到从你";
                                         </address>
                                     </div>
                                     <form name="contact" action="modules/send-email.php" method="post" class="form form-ajax-submit">
-                                        <p><strong>或给我们留言</strong></p>
+                                        <p><strong>聯繫我們</strong></p>
                                         <div class="form-validation alert"></div>
                                         <div class="form-group">
-                                            <input type="text" name="contact-name" class="form-control" placeholder="名称">
+                                            <input type="text" name="contact-name" class="form-control" placeholder="姓名">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" name="contact-email" class="form-control" placeholder="电子邮件地址">
+                                            <input type="text" name="contact-email" class="form-control" placeholder="郵箱地址">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" name="contact-subject" class="form-control" placeholder="主题">
+                                            <input type="text" name="contact-subject" class="form-control" placeholder="有關項目">
                                         </div>
                                         <div class="form-group">
-                                            <textarea name="contact-message" class="form-control" placeholder="信息
+                                            <textarea name="contact-message" class="form-control" placeholder="訊息
+
 " rows="5"></textarea>
                                         </div>
                                         <div class="form-group">
-                                            <button class="btn btn-primary btn-lg btn-block">发信息
+                                            <button class="btn btn-primary btn-lg btn-block">傳遞訊息
 </button>
                                         </div>
                                     </form>
